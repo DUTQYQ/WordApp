@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F5F5F5">
+
+    <ImageView
+        android:id="@+id/readingIcon"
+        android:layout_width="242dp"
+        android:layout_height="185dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="Reading icon"
+        android:src="@drawable/reading_icon" />
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:id="@+id/sentenceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="点击开始背诵今天的单词"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:maxLines="3"
+        android:background="?android:attr/selectableItemBackground" />
+</LinearLayout>
